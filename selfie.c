@@ -7077,6 +7077,6 @@ int main(int argc, int* argv) {
   initSelfie(argc, (int*) argv);
 
   initLibrary();
-
+  print((int*) "This is Stefan Steininger's Selfie");
   return selfie();
 }
